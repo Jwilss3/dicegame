@@ -1,29 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>Are you ready to Roll?</title>
-    <link rel="stylesheet" type="text/css" href="main.css"/>
-</head>
-<body class="background">
+    <link rel="stylesheet" type="text/css" href="main.css" />
+  </head>
+  <body class="background">
+    <div class="header">
     <div class="board">
-        <h1>Keep Rollin' Rollin' Rollin' Rollin' (What?)</h1>
+      <h1>Keep Rollin' Rollin' Rollin' Rollin' (What?)</h1>
     </div>
+  </div>
+</div>
+    <div class="dicebox">
     <div class="dice">
-        <img id="diceImage" src="img/dice1.png" class="diceimages">
+      <img id="diceImage" src="img/dice1.png"/>
     </div>
+</div>
+<div class="tagline">
+    <p class="player">Let's go Playaaa</p>
+</div>
     <div>
-        <p class="player">Let's go Playaaa</p>
+      <p id="game" class="game"></p>
     </div>
-    <div>
-        <p id="game" class="game"></p>
+    <div class="rulesbox">
+        <h2>How to Play and Rules</h2>
+    <div class="play">
+        <p class="rules">
+          Press the button to roll the dice. The aim is to reach 20, with any
+          number of dice rolls. If you roll a 1, your score will reset to zero.
+        </p>
+      </div>
     </div>
     <div class="board-bottom">
-        <button id="btn" class="btn">
-            Alright partner..
-        </button>
+      <button id="btn" class="btn" value="Play button">
+        Alright partner..
+      </button>
     </div>
     <script src="script.js"></script>
-    <input type="button" class="reload" value="Reload Page" onClick="window.location.reload();">
-</body>
+    <input
+      type="button"
+      class="reload"
+      value="Reload Page"
+      onClick="window.location.reload();"
+    />
+  </body>
 </html>
