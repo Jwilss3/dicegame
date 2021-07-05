@@ -22,18 +22,24 @@ body {
   font-family: "Days One", sans-serif;
 }
 
-/* h2 {
-
-} */
+.header {
+  display: flex;
+}
 
 .board {
   display: flex;
   margin: auto;
+} 
+
+.dicebox {
+  display: flex;
 }
 
 .dice {
   display: flex;
+  margin: auto;
 }
+
 
 /* .board div {
   width: 100px;
