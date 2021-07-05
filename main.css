@@ -31,23 +31,23 @@ body {
   margin: auto;
 }
 
-.board div {
-  width: 100px;
-  height: 500px;
+.dice {
+  display: flex;
 }
 
-.board-bottom {
+/* .board div {
+  width: 100px;
+  height: 500px;
+} */
+
+/* .board-bottom {
   display: flex;
   justify-content: space-around;
-}
+} */
 
 /* .board-bottom div {
   width: 100px;
   height: 100px;
-}
-
-.dice {
-  display: flex;
 }
 
 .player {
@@ -55,6 +55,15 @@ body {
   justify-content: center;
   font-size: 30px;
 } */
+
+.tagline {
+  display: flex;
+}
+
+.player {
+  display: flex;
+  margin: auto;
+}
 
 .btn {
   font-family: "Quicksand", sans-serif;
