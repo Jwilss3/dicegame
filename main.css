@@ -1,25 +1,26 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&family=Dosis&family=Quicksand&display=swap");
 
-body,
+/* body,
 html {
   height: 100%;
-}
+} */
 
 .background {
-  max-height: max-content;
   background-image: linear-gradient(
     140deg,
     #eadedb 0%,
     #b491c8 50%,
     #bfd641 75%
   );
-  height: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-attachment: fixed;
 }
 
 body {
   font-family: "Days One", sans-serif;
+}
+
+h2 {
+  text-align: center;
 }
 
 .header {
@@ -64,20 +65,29 @@ body {
 
 .tagline {
   display: flex;
+  margin-top: 3em;
 }
 
 .player {
   display: flex;
   margin: auto;
+  font-size: 20px;
+  font-size: 2.0vw;
+}
+
+.button {
+  display: flex;
 }
 
 .btn {
+  display: flex;
   font-family: "Quicksand", sans-serif;
   font-size: 28px;
   font-weight: lighter;
   height: 75px;
   width: 200px;
   transition-duration: 0.4s;
+  margin: auto;
 }
 
 .game {
@@ -101,14 +111,13 @@ body {
 
 .play {
   display: flex;
-  justify-content: left;
-  width: 50%;
+  justify-content: space-evenly;
+ 
 }
 
 .rules {
   display: flex;
-  align-items: center;
-  flex-direction: column;
+   width: 20%;
   flex-wrap: wrap;
 }
 
