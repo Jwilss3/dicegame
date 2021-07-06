@@ -1,4 +1,3 @@
-
 const dice1 = document.getElementById("dice1");
 
 const game = document.getElementById("game");

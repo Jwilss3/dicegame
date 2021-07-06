@@ -1,9 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Days+One&family=Dosis&family=Quicksand&display=swap");
 
-/* body,
-html {
-  height: 100%;
-} */
+body {
+  font-family: "Days One", sans-serif;
+}
 
 .background {
   background-image: linear-gradient(
@@ -13,10 +12,6 @@ html {
     #bfd641 75%
   );
   background-attachment: fixed;
-}
-
-body {
-  font-family: "Days One", sans-serif;
 }
 
 h2 {
@@ -40,28 +35,6 @@ h2 {
   display: flex;
   margin: auto;
 }
-
-
-/* .board div {
-  width: 100px;
-  height: 500px;
-} */
-
-/* .board-bottom {
-  display: flex;
-  justify-content: space-around;
-} */
-
-/* .board-bottom div {
-  width: 100px;
-  height: 100px;
-}
-
-.player {
-  display: flex;
-  justify-content: center;
-  font-size: 30px;
-} */
 
 .tagline {
   display: flex;
